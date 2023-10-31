@@ -1,0 +1,40 @@
+.img{
+    width: 100px;
+}
+
+.navBar{
+  
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+ .navBar .liftside{
+   
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+ }
+
+.navBar .rightside{
+   
+    align-items: center;
+    display: flex;
+}
+
+.navBar .rightside a,
+.navBar .rightside button {
+    margin-left: 1rem;
+}
+
+
+.navBar .liftside ul{
+   
+    list-style: none;
+    display: flex;
+}
+
+.navBar .liftside ul li{
+    margin-right: 1rem;
+}
+ 
